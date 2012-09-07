@@ -14,8 +14,8 @@ tagline: Site Tagline
 author :
   name : Name Lastname
   email : blah@email.test
-  github : username
-  twitter : username
+  github : youngjay
+  twitter : youngjay
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -23,10 +23,10 @@ author :
 # Most places will/should use BASE_PATH to make the urls
 #
 # If you have set a CNAME (pages.github.com) set your custom domain here.
-# Else if you are pushing to username.github.com, replace with your username.
+# Else if you are pushing to youngjay.github.com, replace with your youngjay.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://username.github.com
+production_url : http://youngjay.github.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -41,21 +41,21 @@ JB :
   #   DO NOT SET BASE_PATH 
   #   (urls will be prefixed with "/" and work relatively)
   #
-  # GitHub Pages (http://username.github.com)
+  # GitHub Pages (http://youngjay.github.com)
   #   DO NOT SET BASE_PATH 
   #   (urls will be prefixed with "/" and work relatively)
   #
-  # GitHub Project Pages (http://username.github.com/project-name)
+  # GitHub Project Pages (http://youngjay.github.com/project-name)
   #
   #   A GitHub Project site exists in the `gh-pages` branch of one of your repositories.
-  #  REQUIRED! Set BASE_PATH to: http://username.github.com/project-name
+  #  REQUIRED! Set BASE_PATH to: http://youngjay.github.com/project-name
   #
   # CAUTION:
   #   - When in Localhost, your site will run from root "/" regardless of BASE_PATH
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : false
+  BASE_PATH : /my-blog
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
